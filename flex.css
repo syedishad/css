@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: grey;
+    height: 300px;
+    align-items: center;
+
+}
+.box1{
+    height:200px ;
+    width: 250px;
+    background-color:green;
+}
+.box2{
+    height:200px ;
+    width: 250px;
+    background-color:palevioletred;
+
+}
+.box3{
+    height:200px ;
+    width: 250px;
+    background-color:blue;
+
+}
