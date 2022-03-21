@@ -1,49 +1,37 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+    margin: 0%;
+padding: 0%;
 }
-.container{
+body{
+    background: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#intro {
+padding-bottom: 10rem;
+}
+#intro p{
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 10px;
+    margin: 10px;
+}
+#intro .name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: aqua;
+    display: block;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
     display: flex;
-    flex-direction:row;
-    /* flex-wrap: wrap; */
     justify-content: center;
-    background-color: hsl(0, 0%, 95%);
-    height: 98vh;
-    /* width: 707px; */
-    /* align-items: center; */
-   /* padding:136px ; */
-
-}
-.box1{
-    height: 300px;
-    width: 500px;
-    background-color:hsl(31, 77%, 52%);
-     padding: 45px;
-}
-/* .box1 img{
-    color: hsl(0, 0%, 95%);
-} */
-.box1 h1{
-color: hsl(0, 0%, 95%);
-margin-top: 30px;
-}
-.box2{
-    height: 300px;
-    width: 500px;
-    background-color: hsl(184, 100%, 22%);
-    padding: 45px;
-}
-.box2 h1{
-    color: hsl(0, 0%, 95%);
-}
-.box3{
-    height: 300px;
-    width: 500px;
-    background-color: hsl(179, 100%, 13%);
-    padding: 45px;
-}
-.box3 h1{
-    color: hsl(0, 0%, 95%);
+    flex-flow:row-reverse;
+    align-items: center;
+    gap: 2rem;
 }
