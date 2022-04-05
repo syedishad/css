@@ -1,45 +1,65 @@
 *{
     margin: 0%;
-padding: 0%;
-}
-body{
-    background: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
-#intro {
-padding-bottom: 10rem;
-}
-#intro p{
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 10px;
-    margin: 10px;
-}
-#intro .name{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.name span{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3rem;
-    color: aqua;
-    display: block;
-}
-nav ul{
-    list-style-type: none;
     padding: 0%;
-    margin: 0%;
-    display: flex;
-    justify-content: center;
-    flex-flow:row-reverse;
-    align-items: center;
-    gap: 2rem;
+    box-sizing: border-box;
 }
-nav a{
-    display: block;
-    text-decoration: none;
+/* .container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 54%, 11%);
+    height: 645px;
+   
+}
+.top{
+    background: hsl(216, 50%, 16%);
+    height: 450px;
+    width: 250px;
+    border-radius: 15px;
+
+}
+.top img{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.top h1{
+    font-size: 18px;
+    padding-left: 20px;
     color: white;
 }
-nav :hover{
-    color: black
+.top h2{
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.image{
+    display:flex; 
+    height: 50px;
+    flex-direction: row;
+}
+.image img{
+    height: 55px;
+    width: 50px;
+    
+}
+.clock{
+    display:flex;
+    
+   
+}
+.clock img{
+    height: 55px;
+    width: 50px;
+} */
+.container{
+   padding: 10px;
+   border: 1px solid blue;
+   width: 250px;
+}
+.image1{
+    height: 200px;
+    width: 200px;
 }
